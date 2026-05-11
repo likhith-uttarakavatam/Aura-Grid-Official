@@ -34,3 +34,23 @@ AURA_GRID/
 ├── 📊 app/data/          # TELEMETRY: Real-time sensor simulation
 ├── 🖥️ ui.py              # COMMAND CENTER: Streamlit dashboard & live graphing
 └── 🚀 main.py            # ENGINE: The system's central execution CLI
+
+---
+
+## 🛠️ How to Run & Test
+To explore Aura-Grid locally, follow these steps:
+
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/likhith-uttarakavatam/Aura-Grid-Official.git](https://github.com/likhith-uttarakavatam/Aura-Grid-Official.git)
+   cd Aura-Grid-Official
+
+2.Install Dependencies:
+Make sure you have Python installed, then run:
+pip install -r requirements.txt
+
+3.Launch the Command Center (Dashboard):
+streamlit run ui.py
+
+4.Run the CLI Engine (Background Process):
+python main.py
